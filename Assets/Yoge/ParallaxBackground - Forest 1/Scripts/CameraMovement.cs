@@ -13,6 +13,6 @@ public class CameraMovement : MonoBehaviour
 
     void LateUpdate()
     {
-        cameraTransform.position += new Vector3(.01f, 0);
+        cameraTransform.position += new Vector3(.00f, 0);
     }
 }
