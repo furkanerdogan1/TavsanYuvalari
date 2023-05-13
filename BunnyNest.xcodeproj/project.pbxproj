@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F875A7E2A0FC79600D78E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875A7D2A0FC79600D78E56 /* AppDelegate.swift */; };
+		5F875A802A0FC79600D78E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875A7F2A0FC79600D78E56 /* SceneDelegate.swift */; };
+		5F875A822A0FC79600D78E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875A812A0FC79600D78E56 /* ViewController.swift */; };
+		5F875A852A0FC79600D78E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F875A832A0FC79600D78E56 /* Main.storyboard */; };
+		5F875A872A0FC79900D78E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F875A862A0FC79900D78E56 /* Assets.xcassets */; };
+		5F875A8A2A0FC79900D78E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F875A882A0FC79900D78E56 /* LaunchScreen.storyboard */; };
+		5F875A922A0FCAF100D78E56 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875A912A0FCAF100D78E56 /* PhotoCollectionViewCell.swift */; };
+		5F875A942A0FD1F000D78E56 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F875A932A0FD1F000D78E56 /* Extensions.swift */; };
+		5F875A962A0FF0EF00D78E56 /* 59945-success-confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F875A952A0FF0EF00D78E56 /* 59945-success-confetti.json */; };
+		5F875A992A0FF41500D78E56 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5F875A982A0FF41500D78E56 /* Lottie */; };
+		5F875A9B2A0FF68000D78E56 /* 11744-x-mark-no.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F875A9A2A0FF68000D78E56 /* 11744-x-mark-no.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F875A7A2A0FC79600D78E56 /* BunnyNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BunnyNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F875A7D2A0FC79600D78E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F875A7F2A0FC79600D78E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F875A812A0FC79600D78E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F875A842A0FC79600D78E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F875A862A0FC79900D78E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F875A892A0FC79900D78E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F875A8B2A0FC79900D78E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F875A912A0FCAF100D78E56 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F875A932A0FD1F000D78E56 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5F875A952A0FF0EF00D78E56 /* 59945-success-confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "59945-success-confetti.json"; sourceTree = "<group>"; };
+		5F875A9A2A0FF68000D78E56 /* 11744-x-mark-no.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11744-x-mark-no.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F875A772A0FC79600D78E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F875A992A0FF41500D78E56 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F875A712A0FC79600D78E56 = {
+			isa = PBXGroup;
+			children = (
+				5F875A7C2A0FC79600D78E56 /* BunnyNest */,
+				5F875A7B2A0FC79600D78E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F875A7B2A0FC79600D78E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F875A7A2A0FC79600D78E56 /* BunnyNest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F875A7C2A0FC79600D78E56 /* BunnyNest */ = {
+			isa = PBXGroup;
+			children = (
+				5F875A7D2A0FC79600D78E56 /* AppDelegate.swift */,
+				5F875A7F2A0FC79600D78E56 /* SceneDelegate.swift */,
+				5F875A812A0FC79600D78E56 /* ViewController.swift */,
+				5F875A912A0FCAF100D78E56 /* PhotoCollectionViewCell.swift */,
+				5F875A932A0FD1F000D78E56 /* Extensions.swift */,
+				5F875A952A0FF0EF00D78E56 /* 59945-success-confetti.json */,
+				5F875A9A2A0FF68000D78E56 /* 11744-x-mark-no.json */,
+				5F875A832A0FC79600D78E56 /* Main.storyboard */,
+				5F875A862A0FC79900D78E56 /* Assets.xcassets */,
+				5F875A882A0FC79900D78E56 /* LaunchScreen.storyboard */,
+				5F875A8B2A0FC79900D78E56 /* Info.plist */,
+			);
+			path = BunnyNest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F875A792A0FC79600D78E56 /* BunnyNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F875A8E2A0FC79900D78E56 /* Build configuration list for PBXNativeTarget "BunnyNest" */;
+			buildPhases = (
+				5F875A762A0FC79600D78E56 /* Sources */,
+				5F875A772A0FC79600D78E56 /* Frameworks */,
+				5F875A782A0FC79600D78E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BunnyNest;
+			packageProductDependencies = (
+				5F875A982A0FF41500D78E56 /* Lottie */,
+			);
+			productName = BunnyNest;
+			productReference = 5F875A7A2A0FC79600D78E56 /* BunnyNest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F875A722A0FC79600D78E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5F875A792A0FC79600D78E56 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5F875A752A0FC79600D78E56 /* Build configuration list for PBXProject "BunnyNest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F875A712A0FC79600D78E56;
+			packageReferences = (
+				5F875A972A0FF41500D78E56 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 5F875A7B2A0FC79600D78E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F875A792A0FC79600D78E56 /* BunnyNest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F875A782A0FC79600D78E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F875A8A2A0FC79900D78E56 /* LaunchScreen.storyboard in Resources */,
+				5F875A872A0FC79900D78E56 /* Assets.xcassets in Resources */,
+				5F875A962A0FF0EF00D78E56 /* 59945-success-confetti.json in Resources */,
+				5F875A852A0FC79600D78E56 /* Main.storyboard in Resources */,
+				5F875A9B2A0FF68000D78E56 /* 11744-x-mark-no.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F875A762A0FC79600D78E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F875A942A0FD1F000D78E56 /* Extensions.swift in Sources */,
+				5F875A822A0FC79600D78E56 /* ViewController.swift in Sources */,
+				5F875A922A0FCAF100D78E56 /* PhotoCollectionViewCell.swift in Sources */,
+				5F875A7E2A0FC79600D78E56 /* AppDelegate.swift in Sources */,
+				5F875A802A0FC79600D78E56 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F875A832A0FC79600D78E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F875A842A0FC79600D78E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F875A882A0FC79900D78E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F875A892A0FC79900D78E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F875A8C2A0FC79900D78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F875A8D2A0FC79900D78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F875A8F2A0FC79900D78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ76Y6C4AM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BunnyNest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edorfs.BunnyNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F875A902A0FC79900D78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PJ76Y6C4AM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BunnyNest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edorfs.BunnyNest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F875A752A0FC79600D78E56 /* Build configuration list for PBXProject "BunnyNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F875A8C2A0FC79900D78E56 /* Debug */,
+				5F875A8D2A0FC79900D78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F875A8E2A0FC79900D78E56 /* Build configuration list for PBXNativeTarget "BunnyNest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F875A8F2A0FC79900D78E56 /* Debug */,
+				5F875A902A0FC79900D78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F875A972A0FF41500D78E56 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F875A982A0FF41500D78E56 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F875A972A0FF41500D78E56 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5F875A722A0FC79600D78E56 /* Project object */;
+}
